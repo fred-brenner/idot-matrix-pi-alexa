@@ -1,0 +1,5 @@
+# Installed in the Python 3.11 venv on Raspberry Pi OS Legacy Bookworm 32-bit.
+# dbus-fast is supplied by Debian's python3-dbus-fast ARMv6 package.
+bleak==0.22.3
+fauxmo==0.6.0
+typing-extensions==4.16.0

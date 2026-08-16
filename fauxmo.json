@@ -1,0 +1,18 @@
+{
+  "FAUXMO": {
+    "ip_address": "auto"
+  },
+  "PLUGINS": {
+    "IdotmatrixPlugin": {
+      "path": "/opt/idotmatrix-bridge/idotmatrixplugin.py",
+      "command": "/opt/idotmatrix-bridge/venv/bin/python /opt/idotmatrix-bridge/bridge.py",
+      "state_file": "/opt/idotmatrix-bridge/idotmatrix.state",
+      "DEVICES": [
+        {
+          "name": "iDotMatrix",
+          "port": 12340
+        }
+      ]
+    }
+  }
+}
